@@ -1,0 +1,10 @@
+2) Describe Transactions in sql with your own words.
+transaction is like sequence of sql query like one or more than one sql query perform on data as single block.
+in transaction there is total four property called it ACID property.
+
+Atomic:it means all the sql query must be executed or none of the executed.
+Consistency: it means database as same state after completing transaction.
+Isolated:As word suggest two transaction must be independent of each other.
+Durable: It means after performing transaction update data should be there in database.
+
+
